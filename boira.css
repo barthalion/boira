@@ -45,7 +45,7 @@ input, select { line-height: 15px; }
 
 #wikiwrapper-footer {
   background: #848684 url(images/topnav_inv.png) repeat-x bottom left;
-  height: 40px;
+  height: 10px;
 }
 
 /* These control the fixed-width text elements of the page */
@@ -179,10 +179,9 @@ table.quickref { padding: 3px; width: 100%; }
 #wikifoot .footnav { color: #a5a2a5; margin-bottom: 0.8em; }
 #wikihead a,
 #wikifoot .lastmod,
-#wikifoot .credits,
-#wikifoot .credits a { color: #f7f7f7; text-decoration: none; 
+#wikifoot .lastmod,
   text-shadow: 0 0 1px rgba(0,0,0,0.3); }
-#wikifoot .credits a:hover { text-shadow: 0 0 3px white; }
+#wikifoot .lastmod a:hover { text-shadow: 0 0 3px white; }
 #wikifoot .footnav a { color: #848684; text-decoration: none; 
   background: white; border-radius: 0px 0px 5px 5px;
   padding: 2px 9px; box-shadow: 0 .1em 0 rgba(0,0,0,0.2); }
@@ -190,27 +189,11 @@ table.quickref { padding: 3px; width: 100%; }
 #wikifoot .footnav a:hover { color: #666;
   box-shadow: 0 .15em .2em rgba(0,0,0,0.3); }
 
-#wikifoot .credits {
+#wikifoot .lastmod {
   position: absolute; top: 0; left: 0;
   padding: 1em; font-size: 90%; min-height: 31px;
   vertical-align: middle; line-height: 0;
-  width: 155px; text-align: left;
-}
-#wikifoot .credits img { border: 0px; vertical-align: text-bottom; margin-right: 0.2em; } 
-#wikifoot .credits a.skin {
--webkit-transform: rotate(-90deg);
--moz-transform: rotate(-90deg);
-transform: rotate(-90deg);
-position: absolute;
-bottom: 50%;
-opacity: .5;
-}
-
-#wikifoot .credits a.skin:hover {
--webkit-transform: rotate(-45deg);
--moz-transform: rotate(-45deg);
-transform: rotate(-45deg);
-opacity: 1;
+  text-align: left;
 }
 
 /* this affect the history view */
